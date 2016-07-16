@@ -113,6 +113,10 @@ After modifying the basic script, features to pull from the current date, at the
             ]
           }>
 
+#### Sample Original Biometric Data Structures
+*   [Information as Json Object](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.json)
+*   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.csv)
+
 *   To make this a simpler structure for pulling data within a postgres database this data was restructured into the following format (all numbers were kept either as whole or decimal):
 
         <Table Name: User Name Metrics
@@ -128,28 +132,12 @@ After modifying the basic script, features to pull from the current date, at the
         Row 2: Date, Start-Time, End-Time, Activity, General Emotion,    Excited, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
         >
 
-### Machine Learning
-### Exporting
-
-# Data Structures & Flow
-
-## Structuring Biometric Data
-*   [Information as Json Object](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.json)
-*   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.csv)
-
-## Structuring External Journal Data
+#### Structuring External Journal Data
 *   [Information as Google Doc](https://docs.google.com/a/newschool.edu/spreadsheets/d/1IoeD4Y-Y1wn7yR7ErYVW-bRPtl2fr9DiImzAYxdMwBw/edit?usp=sharing)
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/journal.xlsx)
 
-## Informational Flow
-
-*   [Upload Journal Data To Database Using Node.js & Google Doc API]()
-*   [Using Python Classify Data Into Events]()
-*   [Calibrate Learning For Optimum Performance Needed]()
-*   [Feed Data Into Algorithm in 10 Minute increments]()
-*   [Output data as visualization to share]()
-*   [Share data as visualization]()
-
+### Machine Learning
+### Exporting
 
 ## Status
 
