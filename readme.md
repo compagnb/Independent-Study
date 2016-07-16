@@ -1,14 +1,17 @@
 ## Independent Study Documentation
-**Faculty:** Aaron Hill
-**Semester:** Spring/Summer 2017
-**Cloud 9 Enviornment Link:**
-**Complimenting Github Repos:**
 
-## Table of Contents
+**Faculty:** Aaron Hill
+
+**Semester:** Spring/Summer 2017
+
+**Cloud 9 Enviornment Link:**
+
+**Complimenting Github Repos:**
 
 
 ## Concept
 The goal of this independent study was to pin point life events through biometric data. This required the analysis of wearable technology which recorded biometric data, metrics provided from the device, the structure of this data in regards to a database, as well as research into APIs, and machine learning methods to pin point these events on an ongoing (live feed) basis.
+
 
 ## Research of Wearable Technology
 While devices like the Neurosky, Emotive Epoc, and Open BCI, have the ability to provide electrical impulses from the brain (neural ossilations), the complexity of wearing one for long periods of time eliminated the possibility of using it for this study. The wrist is a more convenient area for collecting data, hence the following devices were evaluated.
@@ -231,6 +234,7 @@ Using a function to calculate the sigmoid score a percentage of how "positive" o
             >
 
 #### Additional Information on this script, including each user's outcomes can be found in the following link:
-*   [Visualizing Emotional Data](https://github.com/compagnb/thesis)
+*   ["feelin' it" Visualization](https://compagnb.github.io/thesis/self.html)
+*   [Data About "feelin' it"](https://github.com/compagnb/thesis)
 
-## Next Steps
+## Evaluation & Next Steps
