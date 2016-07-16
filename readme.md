@@ -10,7 +10,7 @@
 
 
 ## Concept
-The goal of this independent study was to pin point life events through biometric data. This required the analysis of wearable technology which recorded biometric data, metrics provided from the device, the structure of this data in regards to a database, as well as research into APIs, and machine learning methods to pin point these events on an ongoing (live feed) basis.
+The goal of this independent study was to pin point life events through biometric data. This required the analysis of wearable technology which recorded biometric data, metrics provided from the device, the structure of this data in regards to a database, as well as research into APIs, and machine learning methods to classify these events on an ongoing (live feed) basis.
 
 
 ## Research of Wearable Technology
@@ -139,7 +139,7 @@ After modifying the basic script, features to pull from the current date, at the
 *   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
 
 
-## Machine Learning
+## Classification -- Machine Learning
 The first version of this script pulled all data from the database holding biometric data. Due to a miscalculation on how often the Basis synchronizes data (from every minute to approximately every 10-15 minutes), this feature was removed going forward.
 
 Since the data was no longer being pulled from the database, data used in the python for training was pulled from the Basis API in the form of a single CSV document per day, per category of data (metrics, activity, sleep). These were then consolidated into three different tables within python with the following custom function:
