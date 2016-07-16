@@ -10,8 +10,7 @@ Complimenting Github Repos:
 ## Concept
 The goal of this independent study was to pin point life events through biometric data. This required the analysis of wearable technology which recorded biometric data, metrics provided from the device, the structure of this data in regards to a database, as well as research into APIs, and machine learning methods to pin point these events on an ongoing (live feed) basis.
 
-## Process
-### Research of Wearable Technology
+## Research of Wearable Technology
 While devices like the Neurosky, Emotive Epoc, and Open BCI, have the ability to provide electrical impulses from the brain (neural ossilations), the complexity of wearing one for long periods of time eliminated the possibility of using it for this study. The wrist is a more convenient area for collecting data, hence the following devices were evaluated.
 
 SAMSUNG GEAR FIT & GEAR 2: Samsung Gear 2 provides personalized real-time information on the users heart rate using an optical heart rate sensor. Sensors included within this device are: accelerometer, gyroscope, and an optical heart rate sensor as previously stated. This device is only compatible with certain Samsung devices and some health-related apps. It does offer a developer API.
@@ -26,6 +25,8 @@ BASIS PEAK: The Peak uses proprietary software to help the user make changes to 
 
 Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) as well as their accuracy the The Basis Peak was utilized for this study.
 
+
+## Process
 ### Freeing Basis Data With Node.js
 Since Basis does not offer any API access, alternate methods of gathering data were needed. To supply the data within its proprietary web application the company uses a rest API. The first step in freeing the raw data for all users is to gain access to this rest API.
 
