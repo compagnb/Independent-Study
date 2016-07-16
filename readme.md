@@ -180,8 +180,57 @@ At first, results seemed too good to be true giving a high percentages of true p
 
 Using a larger number of iterations and grouped emotions, percentage was increased to 38% accuracy in the regression model. Coefficients were then exported and used within the visualization for the data.
 
-## Utilizing Coefficients
+#### Additional Information on this script, including each user's outcomes can be found in the following link:
+*   [Predicting Emotional Responses With Biometric Data](https://github.com/compagnb/IS_Emotion_ML)
 
-## Status
+## Front End & Utilizing Coefficients
+After exporting the coefficients and intercept from the python script, it was plugged into the d3.js script to create a visualization. The coefficients were brought in as an array and the intercept as its own variable. This required a function to build a number using all of the data, similar to predicting salary using regression methods.
+
+            <
+                function getSubser(d){
+                  var score = intercept + calCo(d["heartrate"], coefficients[0]) + calCo(d["steps"], coefficients[1]) + calCo(d["calories"], coefficients[2]) + calCo(d["gsr"], coefficients[3]) + calCo(d["skintemp"], coefficients[4]) + calCo(d["airtemp"], coefficients[5]) + calCo(d["weekday"], coefficients[6]) + calCo(d["hour"], coefficients[7])
+
+                  return {
+                  wkDay: d["weekday"],
+                  hour: d["hour"],
+                  mins: d["min"],
+                  heartrate: d["heartrate"],
+                  steps: d["steps"],
+                  calories: d["calories"],
+                  gsr: d["gsr"], skintemp:
+                  d["skintemp"],
+                  airtemp: d["airtemp"],
+                  intcept: intercept,
+                  hco: calCo(d["heartrate"], coefficients[0]),
+                  stepco: calCo(d["steps"], coefficients[1]),
+                  calco: calCo(d["calories"], coefficients[2]),
+                  gsrco: calCo(d["gsr"], coefficients[3]),
+                  skinco: calCo(d["skintemp"], coefficients[4]),
+                  airco: calCo(d["airtemp"], coefficients[5]),
+                  wkdco: calCo(d["weekday"], coefficients[6]),
+                  hrco: calCo(d["hour"], coefficients[7]),
+                  // minco: calCo(d["min"], coefficients[8]),
+                  score: score,
+                  sigscore: sigmoid(score)
+
+                  }
+                }
+            >
+
+
+Using a function to calculate the sigmoid score a percentage of how "positive" or "negative" the emotion was for that point in time. This score later determined what emoji would be shown in the visualization.
+
+            <
+             function sigmoid(t) {
+               return 1/(1+Math.pow(Math.E, -t));
+             }
+
+             function calCo(co, num){
+               return co*num
+             }
+            >
+
+#### Additional Information on this script, including each user's outcomes can be found in the following link:
+*   [Visualizing Emotional Data](https://github.com/compagnb/thesis)
 
 ## Next Steps
