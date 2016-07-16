@@ -30,33 +30,6 @@ Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) a
 
 
 ## Process
-### Freeing Basis Data With Node.js
-Since Basis does not offer any API access, alternate methods of gathering data were needed. To supply the data within its proprietary web application the company uses a rest API. The first step in freeing the raw data for all users is to gain access to this rest API.
-
-The first script build used the 'request' module in node to log into the Basis web application. By using POST to submit the username and password to the login page, access to the data can then be pulled from the restful API. This task required the most work, and research. In order to gain access, an access token was needed. This token needed to be fetched from the cookies within the browser. Once it was obtained it needed to be cleaned before it would work correctly.
-
-After modifying the basic script, features to pull from the current date, at the current minute were added. Finally, the last modification was made to upload the data into a postgres database.
-
-#### Script Variables
-1.  date - is set to pull the current date from the computer being used to run the script.
-1.  outputFile - is set to be called "metrics.json". It is what the saved file will be called when saved.
-1.  usr - is used as the username to be submitted for Basis account access,  put your user-name for basis account in here.
-1.  psw - is used as the password to gain access to the user's Basis account, put your password for basis account in here.
-1.  access_token - code response from server for authorizing data from internal API, no need to touch anything here (was tested on all browsers).
-1.  freq - is the amount of time in between loops of the script run. Basis only updates metric data once per minute so although you can set it to be updated more frequently it is not necessary at this point in time.
-1.  conString - is used to upload data into a database, insert your postgres database info here to connect (Use the following format: postgres://username:database@hostinfo:port/postgres")
-1.  requestDate - is the cleaned and reformatted date that is then used to pull data from that date from the API
-1.  heartArray - is an array of all heart rates gathered per freq.
-1.  caloriesArray - is an array of all calorie gathered per freq.
-1.  stepsArray - is an array of all steps taken gathered per freq.
-1.  gsrArray - is an array of all GSR data gathered per freq.
-1.  skin _ tempArray - is an array of all skin temps gathered per freq.
-
-#### Additional Information on this script, including how to set it up can be found in the following links:
-*   [Free Data From Internal API Using Node.js](https://github.com/compagnb/basisExport)
-*   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
-
-
 ### Data Structures
 #### Original Biometric Data Structures
 *   The original structure pulled from the Basis API is represented in the following hierarchy:
@@ -138,6 +111,33 @@ After modifying the basic script, features to pull from the current date, at the
         >
 *   [Information as Google Doc](https://docs.google.com/a/newschool.edu/spreadsheets/d/1IoeD4Y-Y1wn7yR7ErYVW-bRPtl2fr9DiImzAYxdMwBw/edit?usp=sharing)
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/journal.xlsx)
+
+
+### Freeing Basis Data With Node.js
+Since Basis does not offer any API access, alternate methods of gathering data were needed. To supply the data within its proprietary web application the company uses a rest API. The first step in freeing the raw data for all users is to gain access to this rest API.
+
+The first script build used the 'request' module in node to log into the Basis web application. By using POST to submit the username and password to the login page, access to the data can then be pulled from the restful API. This task required the most work, and research. In order to gain access, an access token was needed. This token needed to be fetched from the cookies within the browser. Once it was obtained it needed to be cleaned before it would work correctly.
+
+After modifying the basic script, features to pull from the current date, at the current minute were added. Finally, the last modification was made to upload the data into a postgres database.
+
+#### Script Variables
+1.  date - is set to pull the current date from the computer being used to run the script.
+1.  outputFile - is set to be called "metrics.json". It is what the saved file will be called when saved.
+1.  usr - is used as the username to be submitted for Basis account access,  put your user-name for basis account in here.
+1.  psw - is used as the password to gain access to the user's Basis account, put your password for basis account in here.
+1.  access_token - code response from server for authorizing data from internal API, no need to touch anything here (was tested on all browsers).
+1.  freq - is the amount of time in between loops of the script run. Basis only updates metric data once per minute so although you can set it to be updated more frequently it is not necessary at this point in time.
+1.  conString - is used to upload data into a database, insert your postgres database info here to connect (Use the following format: postgres://username:database@hostinfo:port/postgres")
+1.  requestDate - is the cleaned and reformatted date that is then used to pull data from that date from the API
+1.  heartArray - is an array of all heart rates gathered per freq.
+1.  caloriesArray - is an array of all calorie gathered per freq.
+1.  stepsArray - is an array of all steps taken gathered per freq.
+1.  gsrArray - is an array of all GSR data gathered per freq.
+1.  skin _ tempArray - is an array of all skin temps gathered per freq.
+
+#### Additional Information on this script, including how to set it up can be found in the following links:
+*   [Free Data From Internal API Using Node.js](https://github.com/compagnb/basisExport)
+*   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
 
 
 ### Machine Learning
