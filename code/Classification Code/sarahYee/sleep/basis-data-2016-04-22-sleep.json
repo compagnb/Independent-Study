@@ -1,0 +1,977 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 28860,
+        "calories": 496.70001220703125,
+        "date": "2016-04-22",
+        "end_time": {
+          "iso": "2016-04-23T13:17:01Z",
+          "time_zone": {
+            "name": "America/New_York",
+            "offset": -240
+          },
+          "timestamp": 1461417421
+        },
+        "events": [
+          {
+            "time": {
+              "iso": "2016-04-23T06:01:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461391260
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T06:02:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461391320
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T06:27:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461392820
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T06:28:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461392880
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T06:31:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461393060
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T06:33:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461393180
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:18:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461395880
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:19:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461395940
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:29:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461396540
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:38:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461397080
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:57:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398220
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:58:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398280
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T07:59:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398340
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:00:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398400
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:14:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461399240
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:26:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461399960
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:27:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461400020
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:47:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461401220
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:51:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461401460
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:54:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461401640
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T08:55:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461401700
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T09:03:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461402180
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T09:04:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461402240
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T09:13:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461402780
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T09:19:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461403140
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T09:20:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461403200
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T09:22:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461403320
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T10:19:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406740
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T10:20:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406800
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T10:53:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461408780
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T11:06:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461409560
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T11:57:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461412620
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T12:12:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461413520
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T12:24:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461414240
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T12:26:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461414360
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T12:28:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461414480
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T12:29:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461414540
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-04-23T13:17:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461417420
+            },
+            "type": "toss_and_turn"
+          }
+        ],
+        "heart_rate": {
+          "avg": 74.36626434326172,
+          "max": null,
+          "min": null
+        },
+        "id": "sleep__2016-04-23T051601",
+        "minutes": 481,
+        "sealed": true,
+        "sleep": {
+          "deep_minutes": 89,
+          "deep_percent": 18.541666666666668,
+          "interruption_minutes": 0,
+          "interruptions": 0,
+          "light_minutes": 273,
+          "light_percent": 56.875,
+          "quality": 97,
+          "rem_minutes": 118,
+          "rem_percent": 24.583333333333332,
+          "toss_and_turn": 38,
+          "unknown_minutes": 0,
+          "unknown_percent": 0.0
+        },
+        "stages": [
+          {
+            "end_time": {
+              "iso": "2016-04-23T05:52:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461390720
+            },
+            "minutes": 35,
+            "start_time": {
+              "iso": "2016-04-23T05:17:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461388620
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T06:30:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461393000
+            },
+            "minutes": 38,
+            "start_time": {
+              "iso": "2016-04-23T05:52:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461390720
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T07:18:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461395880
+            },
+            "minutes": 48,
+            "start_time": {
+              "iso": "2016-04-23T06:30:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461393000
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T07:37:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461397020
+            },
+            "minutes": 19,
+            "start_time": {
+              "iso": "2016-04-23T07:18:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461395880
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T07:38:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461397080
+            },
+            "minutes": 1,
+            "start_time": {
+              "iso": "2016-04-23T07:37:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461397020
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T07:55:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398100
+            },
+            "minutes": 17,
+            "start_time": {
+              "iso": "2016-04-23T07:38:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461397080
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T08:06:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398760
+            },
+            "minutes": 11,
+            "start_time": {
+              "iso": "2016-04-23T07:55:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398100
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T08:13:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461399180
+            },
+            "minutes": 7,
+            "start_time": {
+              "iso": "2016-04-23T08:06:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461398760
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T08:23:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461399780
+            },
+            "minutes": 10,
+            "start_time": {
+              "iso": "2016-04-23T08:13:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461399180
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T08:27:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461400020
+            },
+            "minutes": 4,
+            "start_time": {
+              "iso": "2016-04-23T08:23:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461399780
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T08:42:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461400920
+            },
+            "minutes": 15,
+            "start_time": {
+              "iso": "2016-04-23T08:27:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461400020
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T08:54:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461401640
+            },
+            "minutes": 12,
+            "start_time": {
+              "iso": "2016-04-23T08:42:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461400920
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T09:13:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461402780
+            },
+            "minutes": 19,
+            "start_time": {
+              "iso": "2016-04-23T08:54:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461401640
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T09:30:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461403800
+            },
+            "minutes": 17,
+            "start_time": {
+              "iso": "2016-04-23T09:13:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461402780
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T10:15:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406500
+            },
+            "minutes": 45,
+            "start_time": {
+              "iso": "2016-04-23T09:30:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461403800
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T10:19:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406740
+            },
+            "minutes": 4,
+            "start_time": {
+              "iso": "2016-04-23T10:15:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406500
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T10:20:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406800
+            },
+            "minutes": 1,
+            "start_time": {
+              "iso": "2016-04-23T10:19:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406740
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T10:41:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461408060
+            },
+            "minutes": 21,
+            "start_time": {
+              "iso": "2016-04-23T10:20:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461406800
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T10:52:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461408720
+            },
+            "minutes": 11,
+            "start_time": {
+              "iso": "2016-04-23T10:41:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461408060
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T11:15:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461410100
+            },
+            "minutes": 23,
+            "start_time": {
+              "iso": "2016-04-23T10:52:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461408720
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T11:22:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461410520
+            },
+            "minutes": 7,
+            "start_time": {
+              "iso": "2016-04-23T11:15:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461410100
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T11:41:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461411660
+            },
+            "minutes": 19,
+            "start_time": {
+              "iso": "2016-04-23T11:22:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461410520
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T12:07:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461413220
+            },
+            "minutes": 26,
+            "start_time": {
+              "iso": "2016-04-23T11:41:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461411660
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T12:33:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461414780
+            },
+            "minutes": 26,
+            "start_time": {
+              "iso": "2016-04-23T12:07:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461413220
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-04-23T13:17:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461417420
+            },
+            "minutes": 44,
+            "start_time": {
+              "iso": "2016-04-23T12:33:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1461414780
+            },
+            "type": "light"
+          }
+        ],
+        "start_time": {
+          "iso": "2016-04-23T05:16:01Z",
+          "time_zone": {
+            "name": "America/New_York",
+            "offset": -240
+          },
+          "timestamp": 1461388561
+        },
+        "state": "complete",
+        "type": "sleep",
+        "version": 2
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

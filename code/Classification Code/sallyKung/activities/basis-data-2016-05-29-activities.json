@@ -1,0 +1,351 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 385.0,
+        "calories": 22.899999618530273,
+        "end_time": {
+          "iso": "2016-05-29T06:01:37Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464501697
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T055401/events"
+        },
+        "heart_rate": {
+          "avg": 116.47792053222656,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T055401",
+        "minutes": 7.6,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T055401/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T05:54:01Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464501241
+        },
+        "state": "complete",
+        "steps": 744.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 320.0,
+        "calories": 19.5,
+        "end_time": {
+          "iso": "2016-05-29T06:47:03Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464504423
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T064116/events"
+        },
+        "heart_rate": {
+          "avg": 115.06562805175781,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T064116",
+        "minutes": 5.783333333333333,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T064116/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T06:41:16Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464504076
+        },
+        "state": "complete",
+        "steps": 605.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 237.0,
+        "calories": 9.199999809265137,
+        "end_time": {
+          "iso": "2016-05-29T07:44:30Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464507870
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T073903/events"
+        },
+        "heart_rate": {
+          "avg": 103.35021209716797,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T073903",
+        "minutes": 5.45,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T073903/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T07:39:03Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464507543
+        },
+        "state": "complete",
+        "steps": 421.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 560.0,
+        "calories": 33.099998474121094,
+        "end_time": {
+          "iso": "2016-05-29T10:54:53Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464519293
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T104241/events"
+        },
+        "heart_rate": {
+          "avg": 119.2750015258789,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T104241",
+        "minutes": 12.2,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T104241/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T10:42:41Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464518561
+        },
+        "state": "complete",
+        "steps": 979.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 343.0,
+        "calories": 19.399999618530273,
+        "end_time": {
+          "iso": "2016-05-29T11:04:30Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464519870
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T105738/events"
+        },
+        "heart_rate": {
+          "avg": 116.22740173339844,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T105738",
+        "minutes": 6.866666666666666,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T105738/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T10:57:38Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464519458
+        },
+        "state": "complete",
+        "steps": 625.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 328.0,
+        "calories": 14.600000381469727,
+        "end_time": {
+          "iso": "2016-05-29T11:24:26Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464521066
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T111721/events"
+        },
+        "heart_rate": {
+          "avg": 108.78658294677734,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T111721",
+        "minutes": 7.083333333333333,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T111721/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T11:17:21Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464520641
+        },
+        "state": "complete",
+        "steps": 595.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 741.0,
+        "calories": 42.0,
+        "end_time": {
+          "iso": "2016-05-29T11:49:46Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464522586
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T113501/events"
+        },
+        "heart_rate": {
+          "avg": 114.97300720214844,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T113501",
+        "minutes": 14.75,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T113501/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T11:35:01Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464521701
+        },
+        "state": "complete",
+        "steps": 1417.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 887.0,
+        "calories": 50.599998474121094,
+        "end_time": {
+          "iso": "2016-05-29T13:03:45Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464527025
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T124545/events"
+        },
+        "heart_rate": {
+          "avg": 117.1298828125,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T124545",
+        "minutes": 18.0,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T124545/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T12:45:45Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464525945
+        },
+        "state": "complete",
+        "steps": 1609.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 1074.0,
+        "calories": 45.79999923706055,
+        "end_time": {
+          "iso": "2016-05-29T14:07:23Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464530843
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T1348/events"
+        },
+        "heart_rate": {
+          "avg": 108.9124755859375,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-29T1348",
+        "minutes": 19.383333333333333,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-29T1348/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-29T13:48:00Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1464529680
+        },
+        "state": "complete",
+        "steps": 1843.0,
+        "type": "walk",
+        "version": 1
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

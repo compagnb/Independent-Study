@@ -1,0 +1,503 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 323.0,
+        "calories": 14.0,
+        "end_time": {
+          "iso": "2016-05-20T00:48:24Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463705304
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T004121/events"
+        },
+        "heart_rate": {
+          "avg": 104.23529052734375,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T004121",
+        "minutes": 7.05,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T004121/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T00:41:21Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463704881
+        },
+        "state": "complete",
+        "steps": 554.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 199.0,
+        "calories": 7.300000190734863,
+        "end_time": {
+          "iso": "2016-05-20T00:55:59Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463705759
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T005049/events"
+        },
+        "heart_rate": {
+          "avg": 100.33165740966797,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T005049",
+        "minutes": 5.166666666666667,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T005049/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T00:50:49Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463705449
+        },
+        "state": "complete",
+        "steps": 396.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 922.0,
+        "calories": 45.20000076293945,
+        "end_time": {
+          "iso": "2016-05-20T01:33:23Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463708003
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T011147/events"
+        },
+        "heart_rate": {
+          "avg": 105.89045715332031,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T011147",
+        "minutes": 21.6,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T011147/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T01:11:47Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463706707
+        },
+        "state": "complete",
+        "steps": 1698.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 588.0,
+        "calories": 33.5,
+        "end_time": {
+          "iso": "2016-05-20T01:48:36Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463708916
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T013559/events"
+        },
+        "heart_rate": {
+          "avg": 109.40646362304688,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T013559",
+        "minutes": 12.616666666666667,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T013559/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T01:35:59Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463708159
+        },
+        "state": "complete",
+        "steps": 1050.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 597.0,
+        "calories": 29.700000762939453,
+        "end_time": {
+          "iso": "2016-05-20T02:59:23Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463713163
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T024453/events"
+        },
+        "heart_rate": {
+          "avg": 107.03350067138672,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T024453",
+        "minutes": 14.5,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T024453/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T02:44:53Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463712293
+        },
+        "state": "complete",
+        "steps": 1041.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 1082.0,
+        "calories": 42.5,
+        "end_time": {
+          "iso": "2016-05-20T03:36:42Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463715402
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T030611/events"
+        },
+        "heart_rate": {
+          "avg": 102.56562042236328,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T030611",
+        "minutes": 30.516666666666666,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T030611/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T03:06:11Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463713571
+        },
+        "state": "complete",
+        "steps": 1720.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 455.0,
+        "calories": 19.399999618530273,
+        "end_time": {
+          "iso": "2016-05-20T04:36:05Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463718965
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T041707/events"
+        },
+        "heart_rate": {
+          "avg": 105.29230499267578,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T041707",
+        "minutes": 18.966666666666665,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T041707/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T04:17:07Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463717827
+        },
+        "state": "complete",
+        "steps": 747.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 452.0,
+        "calories": 18.5,
+        "end_time": {
+          "iso": "2016-05-20T05:05:14Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463720714
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T045332/events"
+        },
+        "heart_rate": {
+          "avg": 102.20574951171875,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T045332",
+        "minutes": 11.7,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T045332/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T04:53:32Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463720012
+        },
+        "state": "complete",
+        "steps": 806.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 568.0,
+        "calories": 28.0,
+        "end_time": {
+          "iso": "2016-05-20T05:27:58Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463722078
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T051434/events"
+        },
+        "heart_rate": {
+          "avg": 106.24295806884766,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T051434",
+        "minutes": 13.4,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T051434/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T05:14:34Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463721274
+        },
+        "state": "complete",
+        "steps": 1066.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 705.0,
+        "calories": 26.700000762939453,
+        "end_time": {
+          "iso": "2016-05-20T08:51:08Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463734268
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T083209/events"
+        },
+        "heart_rate": {
+          "avg": 101.88652801513672,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T083209",
+        "minutes": 18.983333333333334,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T083209/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T08:32:09Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463733129
+        },
+        "state": "complete",
+        "steps": 1257.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 683.0,
+        "calories": 22.899999618530273,
+        "end_time": {
+          "iso": "2016-05-20T10:52:29Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463741549
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T103630/events"
+        },
+        "heart_rate": {
+          "avg": 98.49048614501953,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T103630",
+        "minutes": 15.983333333333333,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T103630/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T10:36:30Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463740590
+        },
+        "state": "complete",
+        "steps": 1166.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 508.0,
+        "calories": 13.899999618530273,
+        "end_time": {
+          "iso": "2016-05-20T13:47:08Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463752028
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T132958/events"
+        },
+        "heart_rate": {
+          "avg": 95.1535415649414,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T132958",
+        "minutes": 17.166666666666668,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T132958/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T13:29:58Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463750998
+        },
+        "state": "complete",
+        "steps": 810.0,
+        "type": "walk",
+        "version": 1
+      },
+      {
+        "actual_seconds": 266.0,
+        "calories": 8.300000190734863,
+        "end_time": {
+          "iso": "2016-05-20T14:27:51Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463754471
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T142014/events"
+        },
+        "heart_rate": {
+          "avg": 97.62782287597656,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-20T142014",
+        "minutes": 7.616666666666666,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-20T142014/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-20T14:20:14Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463754014
+        },
+        "state": "complete",
+        "steps": 417.0,
+        "type": "walk",
+        "version": 1
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

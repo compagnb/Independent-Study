@@ -1,0 +1,2 @@
+"start time","start time ISO","start time timezone","start time offset","end time","end time ISO","end time timezone","end time offset","light mins","deep mins","rem mins","interruption mins","unknown mins",interruptions,"toss turns",type,"actual seconds",calories,"heart rate avg","heart rate min","heart rate max",state,version,id
+"2016-05-24 16:16:49",2016-05-24T16:16:49Z,Asia/Shanghai,480,"2016-05-24 23:22:24",2016-05-24T23:22:24Z,Asia/Shanghai,480,227,85,113,0,0,0,29,sleep,25500,393.39999389648,57.728763580322,,,complete,2,sleep__2016-05-24T161649

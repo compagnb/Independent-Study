@@ -1,0 +1,280 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 6960,
+        "calories": 107.4000015258789,
+        "date": "2016-06-06",
+        "end_time": {
+          "iso": "2016-06-06T04:47:35Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1465188455
+        },
+        "events": [
+          {
+            "time": {
+              "iso": "2016-06-06T02:52:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465181520
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T02:53:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465181580
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T02:55:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465181700
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T03:24:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465183440
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:25:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465187100
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:29:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465187340
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:30:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465187400
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:41:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188060
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:43:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188180
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:45:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188300
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-06-06T04:47:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188420
+            },
+            "type": "toss_and_turn"
+          }
+        ],
+        "heart_rate": {
+          "avg": 60.15272903442383,
+          "max": null,
+          "min": null
+        },
+        "id": "sleep__2016-06-06T025135",
+        "minutes": 116,
+        "sealed": true,
+        "sleep": {
+          "deep_minutes": 32,
+          "deep_percent": 27.82608695652174,
+          "interruption_minutes": 0,
+          "interruptions": 0,
+          "light_minutes": 62,
+          "light_percent": 53.91304347826087,
+          "quality": 95,
+          "rem_minutes": 21,
+          "rem_percent": 18.26086956521739,
+          "toss_and_turn": 11,
+          "unknown_minutes": 0,
+          "unknown_percent": 0.0
+        },
+        "stages": [
+          {
+            "end_time": {
+              "iso": "2016-06-06T03:26:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465183560
+            },
+            "minutes": 34,
+            "start_time": {
+              "iso": "2016-06-06T02:52:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465181520
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-06-06T03:58:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465185480
+            },
+            "minutes": 32,
+            "start_time": {
+              "iso": "2016-06-06T03:26:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465183560
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-06-06T04:25:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465187100
+            },
+            "minutes": 27,
+            "start_time": {
+              "iso": "2016-06-06T03:58:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465185480
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-06-06T04:46:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188360
+            },
+            "minutes": 21,
+            "start_time": {
+              "iso": "2016-06-06T04:25:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465187100
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-06-06T04:47:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188420
+            },
+            "minutes": 1,
+            "start_time": {
+              "iso": "2016-06-06T04:46:00Z",
+              "time_zone": {
+                "name": "Asia/Shanghai",
+                "offset": 480
+              },
+              "timestamp": 1465188360
+            },
+            "type": "light"
+          }
+        ],
+        "start_time": {
+          "iso": "2016-06-06T02:51:35Z",
+          "time_zone": {
+            "name": "Asia/Shanghai",
+            "offset": 480
+          },
+          "timestamp": 1465181495
+        },
+        "state": "complete",
+        "type": "sleep",
+        "version": 2
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

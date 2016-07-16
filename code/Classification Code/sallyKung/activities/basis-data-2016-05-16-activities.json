@@ -1,0 +1,47 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 307.0,
+        "calories": 23.200000762939453,
+        "end_time": {
+          "iso": "2016-05-16T15:27:50Z",
+          "time_zone": {
+            "name": "America/New_York",
+            "offset": -240
+          },
+          "timestamp": 1463412470
+        },
+        "events": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-16T152142/events"
+        },
+        "heart_rate": {
+          "avg": 112.27361297607422,
+          "max": null,
+          "min": null
+        },
+        "id": "walk__2016-05-16T152142",
+        "minutes": 6.133333333333334,
+        "sealed": true,
+        "stages": {
+          "link": "/v2/users/54f5b15ca450ed4727efbd0b/activities/walk__2016-05-16T152142/stages"
+        },
+        "start_time": {
+          "iso": "2016-05-16T15:21:42Z",
+          "time_zone": {
+            "name": "America/New_York",
+            "offset": -240
+          },
+          "timestamp": 1463412102
+        },
+        "state": "complete",
+        "steps": 508.0,
+        "type": "walk",
+        "version": 1
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

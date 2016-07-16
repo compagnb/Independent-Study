@@ -1,0 +1,3 @@
+"start time","start time ISO","start time timezone","start time offset","end time","end time ISO","end time timezone","end time offset","light mins","deep mins","rem mins","interruption mins","unknown mins",interruptions,"toss turns",type,"actual seconds",calories,"heart rate avg","heart rate min","heart rate max",state,version,id
+"2016-05-17 19:16:55",2016-05-17T19:16:55Z,Asia/Hong_Kong,480,"2016-05-18 00:10:19",2016-05-18T00:10:19Z,Asia/Hong_Kong,480,213,18,60,0,2,0,19,sleep,17580,335.20001220703,65.805000305176,,,complete,2,sleep__2016-05-17T191655
+"2016-05-18 07:51:53",2016-05-18T07:51:53Z,Asia/Hong_Kong,480,"2016-05-18 08:52:53",2016-05-18T08:52:53Z,Asia/Hong_Kong,480,60,0,0,0,0,0,11,sleep,3660,74.5,78.587860107422,,,complete,2,sleep__2016-05-18T075153

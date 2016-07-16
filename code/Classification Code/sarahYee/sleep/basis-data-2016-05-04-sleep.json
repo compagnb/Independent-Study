@@ -1,0 +1,90 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 1920,
+        "calories": 30.399999618530273,
+        "date": "2016-05-04",
+        "end_time": {
+          "iso": "2016-05-04T12:22:37Z",
+          "time_zone": {
+            "name": "America/New_York",
+            "offset": -240
+          },
+          "timestamp": 1462364557
+        },
+        "events": [
+          {
+            "time": {
+              "iso": "2016-05-04T12:20:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1462364400
+            },
+            "type": "toss_and_turn"
+          }
+        ],
+        "heart_rate": {
+          "avg": 70.05522155761719,
+          "max": null,
+          "min": null
+        },
+        "id": "sleep__2016-05-04T115037",
+        "minutes": 32,
+        "sealed": true,
+        "sleep": {
+          "deep_minutes": 0,
+          "deep_percent": 0.0,
+          "interruption_minutes": 0,
+          "interruptions": 0,
+          "light_minutes": 31,
+          "light_percent": 100.0,
+          "quality": 95,
+          "rem_minutes": 0,
+          "rem_percent": 0.0,
+          "toss_and_turn": 1,
+          "unknown_minutes": 0,
+          "unknown_percent": 0.0
+        },
+        "stages": [
+          {
+            "end_time": {
+              "iso": "2016-05-04T12:22:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1462364520
+            },
+            "minutes": 31,
+            "start_time": {
+              "iso": "2016-05-04T11:51:00Z",
+              "time_zone": {
+                "name": "America/New_York",
+                "offset": -240
+              },
+              "timestamp": 1462362660
+            },
+            "type": "light"
+          }
+        ],
+        "start_time": {
+          "iso": "2016-05-04T11:50:37Z",
+          "time_zone": {
+            "name": "America/New_York",
+            "offset": -240
+          },
+          "timestamp": 1462362637
+        },
+        "state": "complete",
+        "type": "sleep",
+        "version": 2
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

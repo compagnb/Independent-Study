@@ -1,0 +1,1145 @@
+{
+  "content": {
+    "activities": [
+      {
+        "actual_seconds": 20640,
+        "calories": 318.3999938964844,
+        "date": "2016-05-19",
+        "end_time": {
+          "iso": "2016-05-19T19:37:07Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463686627
+        },
+        "events": [
+          {
+            "time": {
+              "iso": "2016-05-19T13:55:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666100
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T13:56:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666160
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T13:59:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666340
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:00:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463670000
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:05:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463670300
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:07:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463670420
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:09:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463670540
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:20:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463671200
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:31:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463671860
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T15:37:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463672220
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T16:20:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463674800
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T16:34:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463675640
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T16:40:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463676000
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T17:01:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463677260
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T17:56:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463680560
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T18:25:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682300
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T18:31:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682660
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T18:36:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682960
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T18:40:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463683200
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T19:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463685180
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T19:32:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463686320
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T19:37:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463686620
+            },
+            "type": "toss_and_turn"
+          }
+        ],
+        "heart_rate": {
+          "avg": 63.659889221191406,
+          "max": null,
+          "min": null
+        },
+        "id": "sleep__2016-05-19T135247",
+        "minutes": 344,
+        "sealed": true,
+        "sleep": {
+          "deep_minutes": 66,
+          "deep_percent": 19.186046511627907,
+          "interruption_minutes": 0,
+          "interruptions": 0,
+          "light_minutes": 182,
+          "light_percent": 52.906976744186046,
+          "quality": 97,
+          "rem_minutes": 94,
+          "rem_percent": 27.325581395348838,
+          "toss_and_turn": 22,
+          "unknown_minutes": 2,
+          "unknown_percent": 0.5813953488372093
+        },
+        "stages": [
+          {
+            "end_time": {
+              "iso": "2016-05-19T14:01:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666460
+            },
+            "minutes": 8,
+            "start_time": {
+              "iso": "2016-05-19T13:53:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463665980
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T14:05:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666700
+            },
+            "minutes": 4,
+            "start_time": {
+              "iso": "2016-05-19T14:01:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666460
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T14:22:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463667720
+            },
+            "minutes": 17,
+            "start_time": {
+              "iso": "2016-05-19T14:05:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463666700
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T14:48:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463669280
+            },
+            "minutes": 26,
+            "start_time": {
+              "iso": "2016-05-19T14:22:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463667720
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T14:59:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463669940
+            },
+            "minutes": 11,
+            "start_time": {
+              "iso": "2016-05-19T14:48:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463669280
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T15:17:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463671020
+            },
+            "minutes": 18,
+            "start_time": {
+              "iso": "2016-05-19T14:59:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463669940
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T15:43:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463672580
+            },
+            "minutes": 26,
+            "start_time": {
+              "iso": "2016-05-19T15:17:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463671020
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T16:12:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463674320
+            },
+            "minutes": 29,
+            "start_time": {
+              "iso": "2016-05-19T15:43:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463672580
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T16:17:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463674620
+            },
+            "minutes": 5,
+            "start_time": {
+              "iso": "2016-05-19T16:12:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463674320
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T16:42:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463676120
+            },
+            "minutes": 25,
+            "start_time": {
+              "iso": "2016-05-19T16:17:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463674620
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T16:54:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463676840
+            },
+            "minutes": 12,
+            "start_time": {
+              "iso": "2016-05-19T16:42:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463676120
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T17:14:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463678040
+            },
+            "minutes": 20,
+            "start_time": {
+              "iso": "2016-05-19T16:54:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463676840
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T18:20:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682000
+            },
+            "minutes": 66,
+            "start_time": {
+              "iso": "2016-05-19T17:14:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463678040
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T18:32:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682720
+            },
+            "minutes": 12,
+            "start_time": {
+              "iso": "2016-05-19T18:20:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682000
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T18:34:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682840
+            },
+            "minutes": 2,
+            "start_time": {
+              "iso": "2016-05-19T18:32:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682720
+            },
+            "type": "unknown"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T18:39:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463683140
+            },
+            "minutes": 5,
+            "start_time": {
+              "iso": "2016-05-19T18:34:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463682840
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T18:48:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463683680
+            },
+            "minutes": 9,
+            "start_time": {
+              "iso": "2016-05-19T18:39:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463683140
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T19:02:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463684520
+            },
+            "minutes": 14,
+            "start_time": {
+              "iso": "2016-05-19T18:48:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463683680
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T19:06:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463684760
+            },
+            "minutes": 4,
+            "start_time": {
+              "iso": "2016-05-19T19:02:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463684520
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T19:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463685180
+            },
+            "minutes": 7,
+            "start_time": {
+              "iso": "2016-05-19T19:06:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463684760
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T19:37:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463686620
+            },
+            "minutes": 24,
+            "start_time": {
+              "iso": "2016-05-19T19:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463685180
+            },
+            "type": "light"
+          }
+        ],
+        "start_time": {
+          "iso": "2016-05-19T13:52:47Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463665967
+        },
+        "state": "complete",
+        "type": "sleep",
+        "version": 2
+      },
+      {
+        "actual_seconds": 13200,
+        "calories": 203.5,
+        "date": "2016-05-19",
+        "end_time": {
+          "iso": "2016-05-19T23:33:07Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463700787
+        },
+        "events": [
+          {
+            "time": {
+              "iso": "2016-05-19T20:15:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463688900
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T20:25:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463689500
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T20:26:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463689560
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T20:27:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463689620
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T21:19:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463692740
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T21:47:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463694420
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T21:48:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463694480
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T22:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463695980
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T22:19:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463696340
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T22:44:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463697840
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T22:53:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463698380
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T23:23:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463700180
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T23:32:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463700720
+            },
+            "type": "toss_and_turn"
+          },
+          {
+            "time": {
+              "iso": "2016-05-19T23:33:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463700780
+            },
+            "type": "toss_and_turn"
+          }
+        ],
+        "heart_rate": {
+          "avg": 58.47931671142578,
+          "max": null,
+          "min": null
+        },
+        "id": "sleep__2016-05-19T195307",
+        "minutes": 220,
+        "sealed": true,
+        "sleep": {
+          "deep_minutes": 53,
+          "deep_percent": 24.200913242009133,
+          "interruption_minutes": 0,
+          "interruptions": 0,
+          "light_minutes": 110,
+          "light_percent": 50.22831050228311,
+          "quality": 94,
+          "rem_minutes": 56,
+          "rem_percent": 25.570776255707763,
+          "toss_and_turn": 14,
+          "unknown_minutes": 0,
+          "unknown_percent": 0.0
+        },
+        "stages": [
+          {
+            "end_time": {
+              "iso": "2016-05-19T20:04:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463688240
+            },
+            "minutes": 10,
+            "start_time": {
+              "iso": "2016-05-19T19:54:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463687640
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T20:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463688780
+            },
+            "minutes": 9,
+            "start_time": {
+              "iso": "2016-05-19T20:04:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463688240
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T20:19:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463689140
+            },
+            "minutes": 6,
+            "start_time": {
+              "iso": "2016-05-19T20:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463688780
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T20:45:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463690700
+            },
+            "minutes": 26,
+            "start_time": {
+              "iso": "2016-05-19T20:19:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463689140
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T20:49:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463690940
+            },
+            "minutes": 4,
+            "start_time": {
+              "iso": "2016-05-19T20:45:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463690700
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T21:19:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463692740
+            },
+            "minutes": 30,
+            "start_time": {
+              "iso": "2016-05-19T20:49:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463690940
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T22:06:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463695560
+            },
+            "minutes": 47,
+            "start_time": {
+              "iso": "2016-05-19T21:19:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463692740
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T22:20:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463696400
+            },
+            "minutes": 14,
+            "start_time": {
+              "iso": "2016-05-19T22:06:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463695560
+            },
+            "type": "deep"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T22:43:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463697780
+            },
+            "minutes": 23,
+            "start_time": {
+              "iso": "2016-05-19T22:20:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463696400
+            },
+            "type": "light"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T23:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463699580
+            },
+            "minutes": 30,
+            "start_time": {
+              "iso": "2016-05-19T22:43:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463697780
+            },
+            "type": "rem"
+          },
+          {
+            "end_time": {
+              "iso": "2016-05-19T23:33:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463700780
+            },
+            "minutes": 20,
+            "start_time": {
+              "iso": "2016-05-19T23:13:00Z",
+              "time_zone": {
+                "name": "Asia/Hong_Kong",
+                "offset": 480
+              },
+              "timestamp": 1463699580
+            },
+            "type": "light"
+          }
+        ],
+        "start_time": {
+          "iso": "2016-05-19T19:53:07Z",
+          "time_zone": {
+            "name": "Asia/Hong_Kong",
+            "offset": 480
+          },
+          "timestamp": 1463687587
+        },
+        "state": "complete",
+        "type": "sleep",
+        "version": 2
+      }
+    ]
+  },
+  "meta": {
+    "response_code": 200
+  }
+}

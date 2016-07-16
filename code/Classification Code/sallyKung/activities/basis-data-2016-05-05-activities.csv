@@ -1,0 +1,6 @@
+"start time","start time ISO","start time timezone","start time offset","end time","end time ISO","end time timezone","end time offset",type,"actual seconds",steps,calories,minutes,"heart rate avg","heart rate min","heart rate max",state,version,id
+"2016-05-05 13:03:46",2016-05-05T13:03:46Z,America/New_York,-240,"2016-05-05 13:10:12",2016-05-05T13:10:12Z,America/New_York,-240,walk,344,703,47.799999237061,6.4333333333333,123.18604278564,,,complete,1,walk__2016-05-05T130346
+"2016-05-05 13:24:23",2016-05-05T13:24:23Z,America/New_York,-240,"2016-05-05 13:31:47",2016-05-05T13:31:47Z,America/New_York,-240,walk,394,778,58.099998474121,7.4,130.1446685791,,,complete,1,walk__2016-05-05T132423
+"2016-05-05 13:50:39",2016-05-05T13:50:39Z,America/New_York,-240,"2016-05-05 14:01:37",2016-05-05T14:01:37Z,America/New_York,-240,walk,432,811,62.200000762939,10.966666666667,127.97454071045,,,complete,1,walk__2016-05-05T135039
+"2016-05-05 22:09:46",2016-05-05T22:09:46Z,America/New_York,-240,"2016-05-05 22:17:22",2016-05-05T22:17:22Z,America/New_York,-240,walk,351,686,37.400001525879,7.6,118.51461791992,,,complete,1,walk__2016-05-05T220946
+"2016-05-05 22:38:07",2016-05-05T22:38:07Z,America/New_York,-240,"2016-05-05 22:45:53",2016-05-05T22:45:53Z,America/New_York,-240,walk,459,913,71.800003051758,7.7666666666667,130.75816345215,,,complete,1,walk__2016-05-05T223807
