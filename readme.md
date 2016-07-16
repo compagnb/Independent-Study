@@ -115,16 +115,18 @@ After modifying the basic script, features to pull from the current date, at the
 
 *   To make this a simpler structure for pulling data within a postgres database this data was restructured into the following format (all numbers were kept either as whole or decimal):
 
-        <Table Name: User Name
+        <Table Name: User Name Metrics
         Row 1: Time1, Heart rate at time1, Calories at time1, Step at time1, GSR at time1, Skin temperature at time1
         Row 2: Time2, Heart rate at time2, Calories at time2, Step at time2, GSR at time2, Skin temperature at time2
         Row 1: Time3, Heart rate at time3, Calories at time3, Step at time, GSR at time3, Skin temperature at time3
         >
 
+*   In order to build a program that was able to pull out events within this data, training data needed to be introduced. To gather this data users were asked to keep a journal of their daily activities and feelings in a Google spreadsheet which was then to be inserted into a database as well. This would eventually be an on-line journal that would record directly into the database for training as needed. The structure of this data took place as the following:
 
-
-
-
+        <Table Name: User Name Journal
+        Row 1: Date, Start-Time, End-Time, Activity, General Emotion,    Excited, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
+        Row 2: Date, Start-Time, End-Time, Activity, General Emotion,    Excited, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
+        >
 
 ### Machine Learning
 ### Exporting
