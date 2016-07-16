@@ -55,7 +55,7 @@ After modifying the basic script, features to pull from the current date, at the
 
 ### Data Structures
 *   The original structure pulled from the Basis API is represented in the following hierarchy:
-         {
+<         {
           "metrics": {
               "heartrate": {
                   "values": [
@@ -111,7 +111,7 @@ After modifying the basic script, features to pull from the current date, at the
               }
           ]
       }
-
+>
 
 
 
