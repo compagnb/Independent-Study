@@ -129,16 +129,58 @@ After modifying the basic script, features to pull from the current date, at the
 *   In order to build a program that was able to pull out events within this data, training data needed to be introduced. To gather this data users were asked to keep a journal of their daily activities and feelings in a Google spreadsheet which was then to be inserted into a database as well. This would eventually be an on-line journal that would record directly into the database for training as needed. The structure of this data took place as the following:
 
         <Table Name: User Name Journal
-        Row 1: Date, Start-Time, End-Time, Activity, General Emotion,    Excited, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
-        Row 2: Date, Start-Time, End-Time, Activity, General Emotion,    Excited, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
+        Row 1: Date, Start-Time, End-Time, Activity, General Emotion, Excitement on a scale from 1 - 10, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
+        Row 2: Date, Start-Time, End-Time, Activity, General Emotion, Excitement on a scale from 1 - 10, Happiness on a scale from 1 - 10, Calmness on a scale from 1 - 10, Anxiousness on a scale from 1 - 10, Sadness on a scale from 1 - 10, Anger on a scale from 1 - 10, Hunger on a scale from 1 - 10, Sleepiness on a scale from 1 - 10, Bored on a scale from 1 - 10
         >
-
-#### Structuring External Journal Data
 *   [Information as Google Doc](https://docs.google.com/a/newschool.edu/spreadsheets/d/1IoeD4Y-Y1wn7yR7ErYVW-bRPtl2fr9DiImzAYxdMwBw/edit?usp=sharing)
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/journal.xlsx)
 
 ### Machine Learning
-### Exporting
+The first version of this script pulled all data from the database holding biometric data. Due to a miscalculation on how often the Basis synchronizes data (from every minute to approximately every 10-15 minutes), this feature was removed going forward.
+
+Since the data was no longer being pulled from the database, data used in the python for training was pulled from the Basis API in the form of a single CSV document per day, per category of data (metrics, activity, sleep). These were then consolidated into three different tables within python with the following custom function:
+
+            <  def loadMetricData(user, directory):
+                path =  user + "/" + directory + "/"
+                all_files = glob.glob(os.path.join(path, "*.csv"))
+                data = pd.DataFrame()
+                list_ = []
+                for file_ in all_files:
+                    data = pd.read_csv(file_,index_col=None, header=0)
+                    list_.append(data)
+                    data = pd.concat(list_)
+                return data
+                >
+
+Once this data was imported into three different tables within python, data was cleaned, removing any rows of time that did not have biometric data attached. This was time the user(s) spent charging the device, showering, or the device was unable to fetch data. Times recorded were reformatted into unix format.
+
+The journal was exported as a CSV and also imported as a table as well. This data was cleaned, reformatting the date and time as well as inserting "0" for any null value. Boolean values were created for each emotion recorded in the journal above 4.
+
+To add all of the tables into one master the following function was used to insert the data from the start time to the end time for each emotion, activity, or state of sleep.
+
+            <
+            def makeIndicators(newvar, metricData, journalData, journal_startdatetime_loc, journal_enddatetime_loc, journal_activity_loc):
+
+                metricData[newvar] = False
+
+                for i in range(0, journalData.shape[0]):
+                    metricData['xlt'] = (metricData['timestamp'] >= pd.to_datetime(journalData.iloc[i, journal_startdatetime_loc]))
+                    metricData['xgt'] = (metricData['timestamp'] <= pd.to_datetime(journalData.iloc[i, journal_enddatetime_loc]))
+                    metricData['xw'] = (journalData.iloc[i, journal_activity_loc] == True)
+                    metricData['xsum'] = metricData['xlt'].astype(int) + metricData['xgt'].astype(int) + metricData['xw'].astype(int)
+                    metricData.loc[metricData['xsum']==3, newvar] = True
+
+                metricData = metricData.drop(['xlt', 'xgt', 'xw', 'xsum'], axis=1)
+                return metricData
+            >
+
+At this point there were some discrepancies noted within the journal data and the sleep and activity data. Since this information was not raw data and predicted from Basis's own training program, it was dropped from usage. Columns for month, day, hour and minute were created. Then the data was trained by using only data that would be gathered from the Basis ( heartrate, steps, calories, gsr, skintemp, airtemp, weekday, month, hour, curmin ) as features against the presence of each emotion.
+
+At first, results seemed too good to be true giving a high percentages of true positive and accuracy. After a flaw was found in time calculation this accuracy and true positive rate dropped drastically. The feature "minutes" was dropped as it seemed to be less likely to have a high correlation between what minute, rather then hour. Since the data used all came from within the same month, month was also dropped. Iterations were also increased. With little effect, emotions were grouped into positive and negative.
+
+Using a larger number of iterations and grouped emotions, percentage was increased to 38% accuracy in the regression model. Coefficients were then exported and used within the visualization for the data.
+
+## Utilizing Coefficients
 
 ## Status
 
