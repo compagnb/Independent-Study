@@ -49,11 +49,96 @@ After modifying the basic script, features to pull from the current date, at the
 1.  gsrArray - is an array of all GSR data gathered per freq.
 1.  skin _ tempArray - is an array of all skin temps gathered per freq.
 
-Additional Information on this script, including how to set it up can be found in the [basisExport] repo made for this study. (https://github.com/compagnb/basisExport)
+#### Additional Information on this script, including how to set it up can be found in the following links:
+*   [Free Data From Internal API Using Node.js](https://github.com/compagnb/basisExport)
+*   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
 
 ### Data Structures
+*   The original structure pulled from the Basis API is represented in the following hierarchy:
+
+        <{
+          "metrics": {
+              "heartrate": {
+                  "values": [
+                      Heart rate for each min,
+                      Recorded as whole number,
+                      Sample: 1-200 or null
+                  ]
+              },
+              "calories": {
+                  "values": [
+                      Calories burned for each min,
+                      Recorded as decimal,
+                      Sample: 0.5 - 200.5 or null
+                  ]
+              },
+              "steps": {
+                  "values": [
+                      Calories burned for each min,
+                      Recorded as decimal,
+                      Sample: 0.5 - 200.5 or null
+                  ]
+              },
+              "gsr": {
+                 "values": [
+                      Calories burned for each min,
+                      Recorded as decimal,
+                      Sample: 0.000005 - 2.5 or null
+                  ]
+              },
+              "skin_temp": {
+                 "values": [
+                      Calories burned for each min,
+                      Recorded as decimal,
+                      Sample: 70.5 - 200.5 or null
+                  ]
+              },
+              "air_temp": {
+                 "values": [
+                      Calories burned for each min,
+                      Recorded as decimal,
+                      Sample: 70.5 - 200.5 or null
+                  ]
+              }
+          },
+          "endtime": 1454907540,
+          "starttime": 1454821200,
+          "interval": 60,
+          "timezone_history": [
+              {
+                  "timezone": "America/New_York",
+                  "start": 1454821200,
+                  "offset": -5
+              }
+          ]
+      }>
+
+
+
+
+
 ### Machine Learning
 ### Exporting
+
+# Data Structures & Flow
+
+## Structuring Biometric Data
+*   [Information as Json Object](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.json)
+*   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.csv)
+
+## Structuring External Journal Data
+*   [Information as Google Doc](https://docs.google.com/a/newschool.edu/spreadsheets/d/1IoeD4Y-Y1wn7yR7ErYVW-bRPtl2fr9DiImzAYxdMwBw/edit?usp=sharing)
+*   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/journal.xlsx)
+
+## Informational Flow
+
+*   [Upload Journal Data To Database Using Node.js & Google Doc API]()
+*   [Using Python Classify Data Into Events]()
+*   [Calibrate Learning For Optimum Performance Needed]()
+*   [Feed Data Into Algorithm in 10 Minute increments]()
+*   [Output data as visualization to share]()
+*   [Share data as visualization]()
+
 
 ## Status
 
