@@ -110,8 +110,17 @@ After modifying the basic script, features to pull from the current date, at the
                   "start": 1454821200,
                   "offset": -5
               }
-          ]
-      }>
+            ]
+          }>
+
+*   To make this a simpler structure for pulling data within a postgres database this data was restructured into the following format (all numbers were kept either as whole or decimal):
+
+        <Table Name: User Name
+        Row 1: Time1, Heart rate at time1, Calories at time1, Step at time1, GSR at time1, Skin temperature at time1
+        Row 2: Time2, Heart rate at time2, Calories at time2, Step at time2, GSR at time2, Skin temperature at time2
+        Row 1: Time3, Heart rate at time3, Calories at time3, Step at time, GSR at time3, Skin temperature at time3
+        >
+
 
 
 
