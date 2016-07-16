@@ -29,9 +29,8 @@ While devices like the Neurosky, Emotive Epoc, and Open BCI, have the ability to
 Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) as well as their accuracy the The Basis Peak was utilized for this study.
 
 
-## Process
-### Data Structures
-#### Original Biometric Data Structures
+## Data Structures
+### Original Biometric Data Structures
 *   The original structure pulled from the Basis API is represented in the following hierarchy:
 
         <{
@@ -93,7 +92,7 @@ Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) a
 *   [Information as Json Object](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.json)
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.csv)
 
-#### Re-structured Biometric Data Structures
+### Re-structured Biometric Data Structures
 *   To make this a simpler structure for pulling data within a postgres database this data was restructured into the following format (all numbers were kept either as whole or decimal):
 
         <Table Name: User Name Metrics
@@ -102,7 +101,7 @@ Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) a
         Row 1: Time3, Heart rate at time3, Calories at time3, Step at time, GSR at time3, Skin temperature at time3
         >
 
-#### Journal Data Structures
+### Journal Data Structures
 *   In order to build a program that was able to pull out events within this data, training data needed to be introduced. To gather this data users were asked to keep a journal of their daily activities and feelings in a Google spreadsheet which was then to be inserted into a database as well. This would eventually be an on-line journal that would record directly into the database for training as needed. The structure of this data took place as the following:
 
         <Table Name: User Name Journal
@@ -113,14 +112,14 @@ Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) a
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/journal.xlsx)
 
 
-### Freeing Basis Data With Node.js
+## Freeing Basis Data With Node.js
 Since Basis does not offer any API access, alternate methods of gathering data were needed. To supply the data within its proprietary web application the company uses a rest API. The first step in freeing the raw data for all users is to gain access to this rest API.
 
 The first script build used the 'request' module in node to log into the Basis web application. By using POST to submit the username and password to the login page, access to the data can then be pulled from the restful API. This task required the most work, and research. In order to gain access, an access token was needed. This token needed to be fetched from the cookies within the browser. Once it was obtained it needed to be cleaned before it would work correctly.
 
 After modifying the basic script, features to pull from the current date, at the current minute were added. Finally, the last modification was made to upload the data into a postgres database.
 
-#### Script Variables
+### Script Variables
 1.  date - is set to pull the current date from the computer being used to run the script.
 1.  outputFile - is set to be called "metrics.json". It is what the saved file will be called when saved.
 1.  usr - is used as the username to be submitted for Basis account access,  put your user-name for basis account in here.
@@ -135,12 +134,12 @@ After modifying the basic script, features to pull from the current date, at the
 1.  gsrArray - is an array of all GSR data gathered per freq.
 1.  skin _ tempArray - is an array of all skin temps gathered per freq.
 
-#### Additional Information on this script, including how to set it up can be found in the following links:
+### Additional Information on this script, including how to set it up can be found in the following links:
 *   [Free Data From Internal API Using Node.js](https://github.com/compagnb/basisExport)
 *   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
 
 
-### Machine Learning
+## Machine Learning
 The first version of this script pulled all data from the database holding biometric data. Due to a miscalculation on how often the Basis synchronizes data (from every minute to approximately every 10-15 minutes), this feature was removed going forward.
 
 Since the data was no longer being pulled from the database, data used in the python for training was pulled from the Basis API in the form of a single CSV document per day, per category of data (metrics, activity, sleep). These were then consolidated into three different tables within python with the following custom function:
@@ -185,7 +184,7 @@ At first, results seemed too good to be true giving a high percentages of true p
 
 Using a larger number of iterations and grouped emotions, percentage was increased to 38% accuracy in the regression model. Coefficients were then exported and used within the visualization for the data.
 
-#### Additional Information on this script, including each user's outcomes can be found in the following link:
+### Additional Information on this script, including each user's outcomes can be found in the following link:
 *   [Predicting Emotional Responses With Biometric Data](https://github.com/compagnb/IS_Emotion_ML)
 
 
@@ -236,7 +235,7 @@ Using a function to calculate the sigmoid score a percentage of how "positive" o
              }
             >
 
-#### Additional Information on this script, including each user's outcomes can be found in the following link:
+### Additional Information on this script, including each user's outcomes can be found in the following link:
 *   ["feelin' it" Visualization](https://compagnb.github.io/thesis/self.html)
 *   [Data About "feelin' it"](https://github.com/compagnb/thesis)
 
