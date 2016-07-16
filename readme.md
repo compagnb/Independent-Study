@@ -56,6 +56,7 @@ After modifying the basic script, features to pull from the current date, at the
 *   [Free Data From Internal API Using Node.js](https://github.com/compagnb/basisExport)
 *   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
 
+
 ### Data Structures
 #### Original Biometric Data Structures
 *   The original structure pulled from the Basis API is represented in the following hierarchy:
@@ -138,6 +139,7 @@ After modifying the basic script, features to pull from the current date, at the
 *   [Information as Google Doc](https://docs.google.com/a/newschool.edu/spreadsheets/d/1IoeD4Y-Y1wn7yR7ErYVW-bRPtl2fr9DiImzAYxdMwBw/edit?usp=sharing)
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/journal.xlsx)
 
+
 ### Machine Learning
 The first version of this script pulled all data from the database holding biometric data. Due to a miscalculation on how often the Basis synchronizes data (from every minute to approximately every 10-15 minutes), this feature was removed going forward.
 
@@ -185,6 +187,7 @@ Using a larger number of iterations and grouped emotions, percentage was increas
 
 #### Additional Information on this script, including each user's outcomes can be found in the following link:
 *   [Predicting Emotional Responses With Biometric Data](https://github.com/compagnb/IS_Emotion_ML)
+
 
 ## Front End & Utilizing Coefficients
 After exporting the coefficients and intercept from the python script, it was plugged into the d3.js script to create a visualization. The coefficients were brought in as an array and the intercept as its own variable. This required a function to build a number using all of the data, similar to predicting salary using regression methods.
@@ -236,5 +239,6 @@ Using a function to calculate the sigmoid score a percentage of how "positive" o
 #### Additional Information on this script, including each user's outcomes can be found in the following link:
 *   ["feelin' it" Visualization](https://compagnb.github.io/thesis/self.html)
 *   [Data About "feelin' it"](https://github.com/compagnb/thesis)
+
 
 ## Evaluation & Next Steps
