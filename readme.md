@@ -124,8 +124,6 @@ The first script build used the 'request' module in node to log into the Basis w
 
 After modifying the basic script, features to pull from the current date, at the current minute were added. Finally, the last modification was made to upload the data into a postgres database.
 
-![video for node.js code](vimeo link)
-
 ### Script Variables
 1.  date - is set to pull the current date from the computer being used to run the script.
 1.  outputFile - is set to be called "metrics.json". It is what the saved file will be called when saved.
