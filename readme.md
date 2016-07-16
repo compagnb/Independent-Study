@@ -245,7 +245,10 @@ As the semester ended, I felt as though if more data was gathered on the subject
 
 While at the Experimental Technologies conference, alternate forms of wearable technologies were explored. The "E5", which is used in medical studies for predicting seizures as well as those involving autistic children at MIT, seems to be ideal to gather this data most accurately. This is a possibility after its release in September. Until this device is available, or there is an update on the technical issues Basis is having with their hardware (burns), any updates on increasing the prediction will be put on hold.
 
-In the mean time, revisions will be made within the project. The journal will be made as an on-line responsive tool. This will allow for a more streamline journal to be kept by all users on whatever platform they have available. It will provide a more efficient method of importing and streamlining work flow for the data training in python when needed. In addition, the emotion categories will be revisited focusing mainly on anxiety. Narrowing down the emotion category, allows a more focused tool to be made. The test users, making up the focus group for data training, will be those suffering from anxiety disorders, such as PTSD.
+In the mean time, revisions will be made within the project. The journal will be made as an on-line responsive tool. This will allow for a more streamline journal to be kept by all users on whatever platform they have available. It will provide a more efficient method of importing and streamlining work flow for the data training in python when needed. In addition, the emotion categories will be revisited focusing mainly on anxiety. Narrowing down the emotion category, allows a more focused tool to be made. The test users, making up the focus group for data training, will be those suffering from anxiety disorders, such as PTSD. This will most-likely be tied into work done on a project called "sessions".
 
+### Additional Information on "sessions", including each user's outcomes can be found in the following link:
+*   ["sessions"](https://sessions.parsons.edu)
+*   [Data About "sessions"](hhttps://github.com/compagnb/compagnb_thesis2015)
 
 
