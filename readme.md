@@ -5,8 +5,11 @@
 **Semester:** Spring/Summer 2017
 
 **Cloud 9 Enviornment Link:**
+*   [Basis Export](https://ide.c9.io/compagnb/independant-study)
 
 **Complimenting Github Repos:**
+*   [Basis Export Scripting](https://github.com/compagnb/basisExport)
+*   [Machine Learning](https://github.com/compagnb/IS_Emotion_ML)
 
 
 ## Concept
@@ -25,6 +28,8 @@ While devices like the Neurosky, Emotive Epoc, and Open BCI, have the ability to
 **JAWBONE UP 3:** Up 3 is also designed to help users modify their sleep and weight habits. This device also utilizes any smart phone with bluetooth LTE 4.0 to transmit data to the company servers. Sensors that are included are: 3-axis accelerometer, heart rate, respiration, and galvanic skin response (GSR). While Jawbone offers API access it only supplies averaged metric data, without access to all raw metrics. Further research into this device produced evidence of inaccuracy within its GSR sensor.
 
 **BASIS PEAK:** The Peak uses proprietary software to help the user make changes to sleep or activity patterns. The Peak automatically adjusts weekly goals based on user performance. It offers notifications for being more active, sleeping more/less, or burning more calories. The sensors included in this device are: optical heart rate sensor, GSR, skin temperature, 3-axis accelerometer. This device has a 4 day battery life and transmits data with the aide of any smart phone with bluetooth LTE 4.0. This device does not have an open API where users can access their own data. All data must be accessed through their proprietary software. According to further research this tracker seemed to offer the most accurate data in comparison to professional medical measurements.
+
+![comparison image](/images/compare.png)
 
 Due to the simplicity of use, multitude of sensors (heart rate, GSR, movement) as well as their accuracy the The Basis Peak was utilized for this study.
 
@@ -119,6 +124,8 @@ The first script build used the 'request' module in node to log into the Basis w
 
 After modifying the basic script, features to pull from the current date, at the current minute were added. Finally, the last modification was made to upload the data into a postgres database.
 
+![video for node.js code](vimeo link)
+
 ### Script Variables
 1.  date - is set to pull the current date from the computer being used to run the script.
 1.  outputFile - is set to be called "metrics.json". It is what the saved file will be called when saved.
@@ -184,6 +191,8 @@ At first, results seemed too good to be true giving a high percentages of true p
 
 Using a larger number of iterations and grouped emotions, percentage was increased to 38% accuracy in the regression model. Coefficients were then exported and used within the visualization for the data.
 
+![results](/images/results.png)
+
 ### Additional Information on this script, including each user's outcomes can be found in the following link:
 *   [Predicting Emotional Responses With Biometric Data](https://github.com/compagnb/IS_Emotion_ML)
 
@@ -234,6 +243,8 @@ Using a function to calculate the sigmoid score a percentage of how "positive" o
                return co*num
              }
             >
+
+![feelin it screen grab](/images/screenshot.png)
 
 ### Additional Information on this script, including each user's outcomes can be found in the following link:
 *   ["feelin' it" Visualization](https://compagnb.github.io/thesis/self.html)
