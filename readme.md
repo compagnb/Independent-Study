@@ -54,6 +54,7 @@ After modifying the basic script, features to pull from the current date, at the
 *   [Upload Biometric Data To Database Using Node.js](https://github.com/compagnb/basisExport)
 
 ### Data Structures
+#### Original Biometric Data Structures
 *   The original structure pulled from the Basis API is represented in the following hierarchy:
 
         <{
@@ -112,11 +113,10 @@ After modifying the basic script, features to pull from the current date, at the
               }
             ]
           }>
-
-#### Sample Original Biometric Data Structures
 *   [Information as Json Object](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.json)
 *   [Information as CSV File](https://github.com/compagnb/thesis/blob/master/work/bioMetrics.csv)
 
+#### Re-structured Biometric Data Structures
 *   To make this a simpler structure for pulling data within a postgres database this data was restructured into the following format (all numbers were kept either as whole or decimal):
 
         <Table Name: User Name Metrics
@@ -125,6 +125,7 @@ After modifying the basic script, features to pull from the current date, at the
         Row 1: Time3, Heart rate at time3, Calories at time3, Step at time, GSR at time3, Skin temperature at time3
         >
 
+#### Journal Data Structures
 *   In order to build a program that was able to pull out events within this data, training data needed to be introduced. To gather this data users were asked to keep a journal of their daily activities and feelings in a Google spreadsheet which was then to be inserted into a database as well. This would eventually be an on-line journal that would record directly into the database for training as needed. The structure of this data took place as the following:
 
         <Table Name: User Name Journal
