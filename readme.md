@@ -249,6 +249,6 @@ In the mean time, revisions will be made within the project. The journal will be
 
 ### Additional Information on "sessions", including each user's outcomes can be found in the following link:
 *   ["sessions"](https://sessions.parsons.edu)
-*   [Data About "sessions"](hhttps://github.com/compagnb/compagnb_thesis2015)
+*   [Data About "sessions"](https://github.com/compagnb/compagnb_thesis2015)
 
 
